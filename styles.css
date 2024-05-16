@@ -1,0 +1,20 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .row {
+    flex: 50%;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .column {
+    flex: 50%;
+  }
+
+  .img-fluid {
+    width: 100%; /* Make the image width 100% of its container */
+    height: 100%; /* Maintain aspect ratio */
+  }
+  
